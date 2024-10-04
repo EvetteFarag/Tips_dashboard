@@ -11,7 +11,7 @@ st.set_page_config(page_title="Tips dashboard",
                     layout="wide",
                     initial_sidebar_state="expanded")
 
-df = pd.read_csv(r"C:\\Users\\hp\Desktop\\tips\\tip.csv")
+df = pd.read_csv("tip.csv")
 st.sidebar.image("glass-jar.jpg")
 st.sidebar.header("Tips dashboard")
 st.sidebar.write("This dashboard is using Tips dataset drom seaborn for educational purposes.")
